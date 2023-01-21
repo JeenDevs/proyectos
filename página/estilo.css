@@ -1,0 +1,164 @@
+body{
+    overflow-x: hidden;
+    height: 100%;
+    width: 100%;
+/*    background-image: url("recursos/JD.jpg");*/
+    background-size: cover;
+    background-color: #E2E7ED;
+}
+
+.sticky-container{
+    padding:0px;
+    margin:0px;
+    position:fixed;
+    right:-130px;
+    top:230px;
+    width:210px;
+    z-index: 1100;
+}
+.sticky li{
+    list-style-type:none;
+    
+    height:43px;
+    padding:0px;
+    margin:0px 0px 1px 0px;
+    -webkit-transition:all 0.25s ease-in-out;
+    -moz-transition:all 0.25s ease-in-out;
+    -o-transition:all 0.25s ease-in-out;
+    transition:all 0.25s ease-in-out;
+    cursor:pointer;
+}
+.sticky li:hover{
+    margin-left:-10px;
+}
+.sticky li img{
+    float:left;
+    margin:5px 4px;
+    margin-right:5px;
+}
+.sticky li p{
+    padding-top:5px;
+    margin:0px;
+    line-height:16px;
+    font-size:11px;
+}
+.sticky li p a{
+    text-decoration:none;
+    color:#2C3539;
+}
+.sticky li p a:hover{
+    text-decoration:underline;
+}
+#barra {
+    flex: 0 1 auto;
+    color: white;
+   background-color: #3F85D5;
+    position:fixed;
+}
+#jd{
+    font-size: 43px;
+    padding-left: 10px;
+}
+#slogan{
+    padding-top: 140px;
+}
+#sl{
+    padding-left: 15px;
+}
+#principal{
+  position: relative;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  zoom: 1;}
+}
+#contenedor{
+    width: 800px;
+    height: 350px;
+    margin-bottom: 70px;
+    padding: 30px;
+    align-content: center;
+    justify-content: center;
+}
+#img1, #img2, #img3, #img4{
+    width: 800px;
+    height: 350px;
+    align-content: center;
+}
+#conceptos{
+    overflow-x: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: #333;
+    font-family: sans-serif;
+}
+.det1, .det2, .det3, .det4, .det5, .det6{
+    background-color: rgb(212, 212, 208);
+    margin: 20px;
+    max-width: 500px;
+    border: 3px solid #333;
+    padding: 20px;
+}
+#alg{
+    border-radius: 5%;
+}
+#pie{
+    padding: 30px;
+    background-color: #2B2C2E;
+    color: white;
+}
+#defin{
+    background-color: #2B2C2E;
+    color: white;
+    padding: 30px;
+    opacity: 0.9;
+}
+#car1, #car2, #car4, #car5, #car6{
+    color: white;
+    justify-content: center;
+    font-family: sans-serif;
+    padding: 30px;
+    float:left;
+    padding-bottom: 90px;
+
+}
+#cabeza{
+align-content: center;
+}
+#cont{
+    background-color: white;
+}
+.social {
+    position: fixed; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
+    right: 0; /* Establecemos la barra en la izquierda */
+    top: 200px; /* Bajamos la barra 200px de arriba a abajo */
+    z-index: 2000; /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
+}
+
+    .social ul {
+        list-style: none;
+    }
+
+    .social ul li a {
+        display: inline-block;
+        color:#fff;
+        background: #000;
+        padding: 10px 15px;
+        text-decoration: none;
+        -webkit-transition:all 500ms ease;
+        -o-transition:all 500ms ease;
+        transition:all 500ms ease; /* Establecemos una transición a todas las propiedades */
+    }
+
+    .social ul li .icon-facebook {background:#3b5998;} /* Establecemos los colores de cada red social, aprovechando su class */
+    .social ul li .icon-twitter {background: #00abf0;}
+    .social ul li .icon-googleplus {background: #d95232;}
+    .social ul li .icon-pinterest {background: #ae181f;}
+    .social ul li .icon-mail {background: #666666;}
+
+    .social ul li a:hover {
+        background: #000; /* Cambiamos el fondo cuando el usuario pase el mouse */
+        padding: 10px 30px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
+    }
